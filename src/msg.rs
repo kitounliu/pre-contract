@@ -11,6 +11,7 @@ pub struct InstantiateMsg {
 pub enum ExecuteMsg {
     Increment {},
     Reset { count: i32 },
+    VerifyCfrag { cfrag: String, capsule: String, verifying_pk: String, delegating_pk: String, receiving_pk: String },
 }
 
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, JsonSchema)]
