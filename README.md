@@ -1,8 +1,6 @@
 # pre-contract
 
 
-Wasmd v0.16.0
-
 ### Running demo with local Wasmd node
 Install wasmd
 ```
